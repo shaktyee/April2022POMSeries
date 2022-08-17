@@ -1,10 +1,10 @@
 package com.qa.opencart.pages;
 
-public class DemoPage {
+public class DummyPage {
 
 	public static void main(String[] args) {
 
-		System.out.println("Demo");
+		int i = 10;
 	}
 
 }
