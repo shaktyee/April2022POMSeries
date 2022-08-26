@@ -39,7 +39,7 @@ public class LoginPage {
 	
 	public String getLoginPageUrl() {
 		String url = eleUtil.waitForUrl(AppConstants.SMALL_DEFAULT_TIME_OUT, AppConstants.LOGIN_PAGE_URL_FRACTION);
-		System.out.println("login page url is: "+ url);
+		System.out.println("login page current url is: "+ url);
 		return url;
 	}
 	
